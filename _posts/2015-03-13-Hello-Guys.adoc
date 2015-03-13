@@ -1,0 +1,8 @@
+# Hello Guys
+
+## mardown compatibility
+
+Most of the markdown style is supported, so I am glad to use it, but then I will search if there is some new features here.
+
+## Real-time synchronizing
+That is the such a great feature when I doc in the browser, even when I quit the browser occasionally, the doc save the post for me
