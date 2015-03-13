@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "hanwencheng",
-    "repositoryName": "hanwenblog",
-    "branch": "gh-pages"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"hanwencheng","repositoryName":"hanwenblog","branch":"gh-pages"},"site":{"title":"Hanwen Cheng","logo":"http://www.gravatar.com/avatar/d3f6899a9bbad79b7c7c0e11b0800b5e.png","googleAnalytics":"","url":"https://hanwencheng.github.io/hanwenblog"},"socialnetwork":{},"theme":{"name":"Casper","url":"https://hanwencheng.github.io/hanwenblog/themes/Casper"}}
