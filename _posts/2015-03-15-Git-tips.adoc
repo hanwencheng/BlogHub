@@ -6,3 +6,17 @@
 
 ==== check the all the config parameter
 
+----
+git config --list
+----
+
+==== check the remote settings
+
+----
+git remote -v
+----
+
+
+* setting 
+
+* s 
