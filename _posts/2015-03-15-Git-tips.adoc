@@ -22,5 +22,9 @@ git remote -v
 git remote add upstream (the url)
 
 git fetch upstream
+----
 
+Then go to certain branch.
+----
+git merge upstream/master(or other branch name)
 ----
