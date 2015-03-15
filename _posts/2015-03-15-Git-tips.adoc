@@ -1,6 +1,7 @@
 = Git tips
 
 :hp-tags: reminder
+:hp-image: covers/github.png
 
 === Sync with remote repository
 
