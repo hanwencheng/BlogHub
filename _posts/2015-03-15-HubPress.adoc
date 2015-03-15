@@ -1,6 +1,6 @@
 = HubPress 使用指南
 
-:hp-tags: 翻译
+:hp-tags: translation
 :hp-alt-title: Hubpress README-zh
 
 
