@@ -17,6 +17,10 @@ git remote -v
 ----
 
 
-* setting 
+1 setting upstream attribute
+----
+git remote add upstream (the url)
 
-* s 
+git fetch upstream
+
+----
