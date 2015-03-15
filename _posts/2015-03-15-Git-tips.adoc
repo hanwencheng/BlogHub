@@ -1,0 +1,8 @@
+= Git tips
+
+:hp-tags: reminder
+
+=== Sync with remote repository
+
+==== check the all the config parameter
+
