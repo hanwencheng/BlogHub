@@ -1,4 +1,4 @@
-= Hubpress Good Parts
+= HubPress Good Parts
 
 ### mardown compatibility
 
