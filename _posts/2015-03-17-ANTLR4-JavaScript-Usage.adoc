@@ -1,3 +1,19 @@
 = ANTLR4 JavaScript Usage
 
 :hp-tags: notes
+
+=== Quick Guide in Terminal
+
+
+
+=== Context in Parser
+ 
+THe ctx has a `children` field, which includes all the ternimalNode here include some sign like "="
+
+More important, ctx has method to access all of elements it mentioned like `ctx.block()`. For getting a text or token, use `getText()` or `getSymbol()`.
+
+You can use both ways to access the node.
+
+See the http://www.antlr.org/api/Java/org/antlr/v4/runtime/ParserRuleContext.html[Antlr Doc] here
+
+
