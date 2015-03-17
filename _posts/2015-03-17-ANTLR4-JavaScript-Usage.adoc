@@ -48,6 +48,10 @@ For detect the ambiguous error please use DiagnosticErrorListener instead :
 ----
 parser.removeErrorListeners();
 parser.addErrorListener(new DiagnosticErrorListener());
+
+//one more stuff here 
+parser.getInterpreter()
+	.setPredictionMode(PredictioniMode.LL_EXACT_AMBIG_DETECTION);
 ----
 
 
