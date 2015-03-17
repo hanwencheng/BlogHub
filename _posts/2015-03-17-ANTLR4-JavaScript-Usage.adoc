@@ -4,7 +4,13 @@
 
 === Quick Guide in Terminal
 
+* first generate parser and lexer (and visitor)
 
+----
+antlr -Dlanguage=JavaScript -visitor test.g4
+----
+
+NOTE: In JavaScript we don't need to compile or test, but we could do that in java target project.
 
 === Context in Parser
  
