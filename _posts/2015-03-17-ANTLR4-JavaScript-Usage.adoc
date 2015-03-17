@@ -38,4 +38,6 @@ Visitor::
 
 Visitor visit specific node, and could give return value.
 
+NOTE: The two method use the same context regarding to the same state.
+
 
