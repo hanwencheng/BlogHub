@@ -40,4 +40,14 @@ Visitor visit specific node, and could give return value.
 
 NOTE: The two method use the same context regarding to the same state.
 
+=== Error Detection
+
+For detect the ambiguous error please use DiagnosticErrorListener instead :
+
+[source,javascript]
+----
+parser.removeErrorListeners();
+parser.addErrorListener(new DiagnosticErrorListener());
+----
+
 
