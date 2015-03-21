@@ -1,0 +1,104 @@
+= GoLang Notes
+
+:hp-tags: notes
+
+=== Package
+
+* package `math/rand` 的名字就是 rand.
+
+* Exported name first letter is capital letter e.g. `math.Pi`.
+
+=== Functions
+
+* when defining function, types comes after the name 
+
+* you can also write `x, y int`
+
+* a function can return multi type value
+
+----
+func swap(x, y string) (string, string) {
+	return y, x
+}
+
+func main() {
+	a, b := swap("hello", "world")
+	fmt.Println(a, b)
+}
+----
+
+* you can use nake return statement, but you should #avoid# doing it.
+
+----
+func split(sum int) (x, y int) {
+	x = sum * 4 / 9
+	y = sum - x
+	return
+}
+----
+
+=== Types
+
+* all the types are
+
+----
+bool
+
+string
+
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte // alias for uint8
+
+rune // alias for int32
+     // represents a Unicode code point
+
+float32 float64
+
+complex64 complex128
+----
+
+* you should define a variable with its type, otherwise you should intialize it
+----
+var c, python, java = true, false, "no!"
+----
+
+* Inside a function, the := short assignment statement can be used in place of a var declaration with implicit type.
+
+* use simple function for type convention
+
+----
+var i int = 42
+var f float64 = float64(i)
+var u uint = uint(f)
+
+i := 42
+f := float64(i)
+u := uint(f)
+----
+
+＊ defer can delay a function until other excuted, it follows a last-in-first-out order.
+
+=== Some struct
+
+==== Pointer
+
+----
+func main() {
+	i, j := 42, 2701
+
+	p := &i         // point to i
+	fmt.Println(*p) // read i through the pointer
+	*p = 21         // set i through the pointer
+	fmt.Println(i)  // see the new value of i
+
+	p = &j         // point to j
+	*p = *p / 37   // divide j through the pointer
+	fmt.Println(j) // see the new value of j
+}
+----
+ output is : 42, 21, 73
+ 
+ ==== Struct
+
