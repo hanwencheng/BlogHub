@@ -1,0 +1,30 @@
+h1{
+font-size:30px;
+text-align:center;
+}
+
+.wrapper{
+width:960px;
+margin:10px auto;
+padding:10px;
+border:1px;
+}
+
+img{
+display:block;
+float:left;
+margin-right:50px;
+position:relative;
+left:40px;
+top:100px;
+border:1px;
+}
+
+body{
+width:100%;
+background-color:#FFF;
+font-family: 'The Girl Next Door', cursive;
+color:#66A3D2;
+line-height:3em;
+padding:10px;
+}

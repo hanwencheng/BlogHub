@@ -1,0 +1,275 @@
+body{
+  width:100%;
+   background-color:#FFFFFF 	; 
+  font-family:verdana,sans-serif;
+  color:#555555;
+  /*border:2px solid #FFFFFF;*/
+  font-size:14px;
+  margin:0;
+  }
+  header{
+  display:block;	
+  width:100%;
+  /*
+  position:absolute;
+  top:0px;
+  left:0px;
+  */
+  padding: 1px;
+  margin:0;
+  height:32px;
+  background-color:#007FFF;
+  color:#fff;
+  }
+
+  .header_wrapper{
+  width:962px;
+  padding:0px;
+  border:0px solid #000;
+  margin:8px auto 0px auto;
+  }
+  
+  .body_wrapper{
+  width:962px;
+  height:100%;
+  padding:1px;
+  margin:5px auto 0px auto	;		
+  text-align:center;
+  }
+
+  .header_wrapper li{
+  display:inline;
+  margin-right:5px;
+  }
+ 
+ ul{
+ margin:0;
+ overflow:auto;
+ padding:0;
+ }
+ 
+ .border{
+ border:1px solid #CCCCCC;
+ }
+ 
+ .contactInfo{
+ float:left;
+ margin:0;
+ }
+ 
+ .info{
+ float:right;
+ }
+ 
+ .left{
+ text-align:left;
+ }
+ 
+ .right{
+ text-align:right;
+ }
+ 
+ #name .lastname{
+ position:relative;
+ right:100px;
+ font-size:50px;
+ }
+ @font-face{
+ font-family:'ex2';
+ src:url('Exo2-Medium.ttf')
+ }
+ #name .introduction{
+ position:relative;
+ right:0px;
+ font-family: 'Exo 2', 'ex2', verdana;
+ color:#888888;
+ }
+ .vertical_middle{
+  position:relative;
+ top:-2px;
+ vertical-align:middle;
+ }
+ #name .firstname{
+ position:relative;
+ right:150px;
+ font-size:40px;
+ }
+
+ #name{
+ float:left;
+ padding:0;
+ width:720px;
+ margin:10px;
+ color:#007FFF;
+ line-height:20px;
+ }
+ 
+ #photo{
+ border-radius: 50%;
+ background-image:url("cvphoto1.gif") ;
+ float:left;
+  padding:0;
+ height:200px;
+ width:200px;
+ margin:10px
+ }
+ 
+ .split{
+ width:962px;
+ float:left;
+ }
+ 
+ .skill{
+ border-radius:10%;
+ margin-top:0px;
+ margin-bottom:20px;
+ padding:5px;
+ width:225px;
+ height:120px;
+ float:left;
+ border:1px solid #fff;
+ line-height:1.4em;
+ font-size:15px;
+ font-family: 'Exo 2', 'ex2', verdana;;
+ }
+ 
+ .skill .title{
+ color:#007FFF;
+ text-transform:uppercase;
+ }
+ 
+ .bluebackground{
+ background-color:#4B7EA2;
+ }
+ 
+ .redbackground{
+  background-color:#FF4C4C;
+ }
+ 
+ .yellowbackground{
+   background-color:#B35900;
+ }
+ 
+ .greenbackground{
+ background-color:#00B386;
+ }
+ 
+ .chinabackground{
+ background-image:url("China.jpg"); 
+ }
+ .whoami{
+ border-radius:50%;
+ width:150px;
+ height:150px;
+ float:left;
+ margin:10px;
+ padding:0 0px 0 0;
+ background-color:#007FFF;
+ color:#fff;
+ text-transform:uppercase;
+ line-height:150px;
+ font-size:150%;
+ }
+ 
+ .clear{
+ clear:left;
+ }
+ .overview{
+ float:left;
+ width:780px;
+ height:150px;
+ box-sizing:border-box;
+ padding:40px;
+ font-size:16px;
+ text-align:left;
+ }
+ 
+ th,td{
+ vertical-align:middle;
+ height:80px;
+ padding:0;
+ }
+ 
+ th.slash{
+ width:10px;
+ background-color:white;
+ color:blue;
+ font-size:20px;
+ }
+ 
+ th.date{
+ background-color:#007FFF;
+ color:white;
+ width:70px;
+ }
+ table{
+ border-spacing:5px 15px;
+ margin:5px;
+ padding:0;
+ }
+ 
+ table.education_date{
+ text-transform:uppercase;
+ font-size:14px;
+ float:left;
+ width:190px;
+ }
+
+ table.education_content{
+ width:742px;
+ float:left;
+ text-align:left;
+ }
+ /*
+ table.education_content td{
+ border-bottom:1px solid #BBBBBB;
+ }*/
+ 
+ .language_section{
+ float:left;
+ width:100%;
+ padding:1px;
+ padding-bottom:10px;
+ margin:0px;
+ background-color:#007FFF;
+ color:white;
+ line-height:1.4em;
+ }
+ .float{
+ float:left;
+ }
+
+ .language_name{
+ margin-left:10px;
+ margin-top:0;
+ font-weight:bold;
+ padding:5px;
+ width:90px;
+ text-transform:uppercase;
+ }
+ .top10{
+ position:relative;
+ top:-10px;
+ }
+  .top20{
+ position:relative;
+ top:-20px;
+ }
+ .language_discription{
+ margin-top:0;
+ text-align:left;
+ padding:5px;
+ width:200px;
+ height:60px;
+ }
+ 
+ img.resize{
+ width:50px;
+ height:50px;
+ }
+ 
+ footer{
+ position:relative;
+ top:15px;
+ text-align:center;
+ }
