@@ -1298,9 +1298,9 @@ body:not(.post-template) .post-title {
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.75em;
-    color: #BBC7CC;
+    font-size: 2rem;
+    line-height: 2.75em;
+    color: #bbc7cc;
 }
 
 .site-footer a {

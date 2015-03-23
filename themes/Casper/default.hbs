@@ -25,22 +25,14 @@
 
     {{! Everything else gets inserted here }}
     {{{body}}}
-    <div class='hanwenResume'>
-        Know more about me
-    </div>
-    <div class='hanwenResume'>
-        three images link
-    </div>
 
     <footer class="site-footer clearfix">
-        <div class='hanwenResume'>
-            Know more about me
-        </div>
-        <div class='hanwenResume'>
-            three images link
-        </div>
         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-        <section class="poweredby">Made By <a href="http://hanwencheng.github.com">Hanwen Cheng</a></section>
+        <section class="poweredby hanwenResume">Know more about me
+            <a href="../../pages/resume_de.html"><img src="../../pages/Germany.gif" alt="german cv"></a>
+            <a href="../../pages/resume_en.html"><img src="../../pages/UK.gif" style="width:48px;height:48px"></a>
+            <a href="http://hanwencheng.github.io/hanwenblog/pages/resume_zh.html"><img src="../../pages/China.gif" style="width:48px;height:48px"></a>
+        </section>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}
