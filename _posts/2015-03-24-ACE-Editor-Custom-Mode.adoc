@@ -1,0 +1,33 @@
+= ACE Editor Custom Mode
+
+=== Syntax Highlighting
+
+----
+var MyNewHighlightRules = function() {
+
+    // regexp must not have capturing parentheses. Use (?:) instead.
+    // regexps are ordered -> the first match is used
+   this.$rules = {
+        "start" : [
+            {
+                token: <token>, // String, Array, or Function: the CSS token to apply
+                regex: <regex>, // String or RegExp: the regexp to match
+                next:  <next>   // [Optional] String: next state to enter
+            }
+        ]
+    };
+};
+
+----
+
+* Highlighting always in the start state
+
+* the span name would be `ace_<tokenname>`
+
+* multiple token name with `.`, eg `class1.class2`
+
+=== Indentation 
+
+
+
+=== Code Folding 
