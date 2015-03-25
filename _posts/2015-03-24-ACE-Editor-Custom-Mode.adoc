@@ -26,6 +26,10 @@ var MyNewHighlightRules = function() {
 
 * multiple token name with `.`, eg `class1.class2`
 
+---
+
+* in keyword save all the key, which is used to avoid using in code
+
 === Indentation 
 
 
