@@ -26,7 +26,7 @@ var MyNewHighlightRules = function() {
 
 * multiple token name with `.`, eg `class1.class2`
 
-* all the highlighting list see https://github.com/ajaxorg/ace/blob/master/tool/tmtheme.js
+* all the highlighting list see https://github.com/ajaxorg/ace/blob/master/tool/tmtheme.js[WIKI]
 
 ---
 
