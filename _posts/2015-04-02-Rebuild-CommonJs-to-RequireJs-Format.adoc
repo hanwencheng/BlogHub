@@ -1,0 +1,7 @@
+= Rebuild CommonJs to RequireJs Format
+
+:hp-tags: note
+
+----
+node r.js -convert path/to/commonjs/modules/ path/to/output
+----
