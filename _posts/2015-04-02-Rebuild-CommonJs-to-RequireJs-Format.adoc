@@ -5,3 +5,9 @@
 ----
 node r.js -convert path/to/commonjs/modules/ path/to/output
 ----
+
+== Solve requireJs Name Conflict
+
+see the [commit](https://github.com/jrburke/requirejs/commit/be45948433b053921dc6a6a57bf06d04e13b3b39)
+
+nomarlly requirejs use `require` as global variable, and use `requirejs` if require is already defined by other apps.
