@@ -1,0 +1,30 @@
+= Server Command
+
+:hp-tags: notes
+
+=== Package
+
+* package `math/rand` 的名字就是 rand.
+
+* Exported name first letter is capital letter e.g. `math.Pi`.
+
+=== Functions
+
+* when defining function, types comes after the name 
+
+* you can also write `x, y int`
+
+* a function can return multi type value
+
+----
+func swap(x, y string) (string, string) {
+	return y, x
+}
+
+func main() {
+	a, b := swap("hello", "world")
+	fmt.Println(a, b)
+}
+----
+
+* you can use nake return statement, but you should #avoid# doing it.
