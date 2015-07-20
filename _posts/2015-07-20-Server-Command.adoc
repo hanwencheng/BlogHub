@@ -29,3 +29,8 @@ solution:
 export LC_ALL=C
 mongo 
 ----
+
+* start mongod : 
+----
+sudo service mongod start
+----
