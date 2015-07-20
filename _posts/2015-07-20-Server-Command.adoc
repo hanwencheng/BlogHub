@@ -10,21 +10,22 @@
 
 === Database command
 
-*  http://docs.mongodb.org/v2.2/tutorial/getting-started-with-the-mongo-shell/[mongodb shell start reference]
+* http://docs.mongodb.org/v2.2/tutorial/getting-started-with-the-mongo-shell/[mongodb shell start reference]
 
-* you can also write `x, y int`
+* http://docs.mongodb.org/v2.2/reference/mongo-shell/[mongodb shell command quick reference]
 
-* a function can return multi type value
+* database path variable is set into `~/.bashrc`
+
+* error :
 
 ----
-func swap(x, y string) (string, string) {
-	return y, x
-}
-
-func main() {
-	a, b := swap("hello", "world")
-	fmt.Println(a, b)
-}
+Failed global initialization: BadValue Invalid or no user locale set. Please ensure LANG and/or LC_* environment variables are set correctly
 ----
 
-* you can use nake return statement, but you should #avoid# doing it.
+solution:
+
+----
+(sudo locale-gen)
+export LC_ALL=C
+mongo 
+----
