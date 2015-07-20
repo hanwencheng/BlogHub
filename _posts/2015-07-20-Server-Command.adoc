@@ -14,7 +14,11 @@
 
 * http://docs.mongodb.org/v2.2/reference/mongo-shell/[mongodb shell command quick reference]
 
-* database path variable is set into `~/.bashrc`
+* database path variable is set into `~/.bashrc`, add here:
+
+----
+export PATH=<mongodb-install-directory>/bin:$PATH
+----
 
 * error :
 
