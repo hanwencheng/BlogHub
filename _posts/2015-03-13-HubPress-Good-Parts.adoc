@@ -6,3 +6,6 @@ Most of the markdown style is supported, so I am glad to use it, but then I will
 
 ### Real-time synchronizing
 That is the such a great feature when I doc in the browser, even when I quit the browser occasionally, the doc save the post for me.
+
+### The AsciiDoc quick reference
+see the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[link]
