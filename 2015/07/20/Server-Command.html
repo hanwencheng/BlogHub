@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Server Command</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="//hanwencheng.github.io/hanwenblog/themes/Casper/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//hanwencheng.github.io/hanwenblog/themes/Casper/assets/css/screen.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html" />
+    
+    <meta property="og:site_name" content="Hanwen Cheng" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Server Command" />
+    <meta property="og:description" content="Start and restart pm2 list to check the status of servers and the server id. pm2 restart server_id to restart server Database command mongodb shell start reference mongodb shell command quick reference database path variable is set into ~/.bashrc..." />
+    <meta property="og:url" content="https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html" />
+    <meta property="article:published_time" content="2015-07-19T22:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-07-20T11:52:02.494Z" />
+    <meta property="article:tag" content="notes" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Server Command" />
+    <meta name="twitter:description" content="Start and restart pm2 list to check the status of servers and the server id. pm2 restart server_id to restart server Database command mongodb shell start reference mongodb shell command quick reference database path variable is set into ~/.bashrc..." />
+    <meta name="twitter:url" content="https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Hanwen Cheng",
+    "author": {
+        "@type": "Person",
+        "name": "Hanwen Cheng",
+        "image": "https://avatars.githubusercontent.com/u/6014309?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://www.hanwencheng.com"
+    },
+    "headline": "Server Command",
+    "url": "https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html",
+    "datePublished": "2015-07-19T22:00:00.000Z",
+    "dateModified": "2015-07-20T11:52:02.494Z",
+    "keywords": "notes",
+    "description": "Start and restart pm2 list to check the status of servers and the server id. pm2 restart server_id to restart server Database command mongodb shell start reference mongodb shell command quick reference database path variable is set into ~/.bashrc..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Hanwen Cheng" href="https://hanwencheng.github.io/hanwenblog/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+</head>
+<body class="post-template tag-notes">
+
+    
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="back-button icon-arrow-left" href="https://hanwencheng.github.io/hanwenblog">Home</a>
+        <!-- <a class="subscribe-button icon-feed" href="https://hanwencheng.github.io/hanwenblog/rss/">Subscribe</a> -->
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-notes">
+
+        <header class="post-header">
+            <h1 class="post-title">Server Command</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-07-20">20 July 2015</time>  on <a href="https://hanwencheng.github.io/hanwenblog/tag/notes">notes</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div class="sect2">
+<h3 id="_start_and_restart">Start and restart</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><code>pm2 list</code> to check the status of servers and the server <code>id</code>.</p>
+</li>
+<li>
+<p><code>pm2 restart server_id</code> to restart server</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_database_command">Database command</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://docs.mongodb.org/v2.2/tutorial/getting-started-with-the-mongo-shell/">mongodb shell start reference</a></p>
+</li>
+<li>
+<p><a href="http://docs.mongodb.org/v2.2/reference/mongo-shell/">mongodb shell command quick reference</a></p>
+</li>
+<li>
+<p>database path variable is set into <code>~/.bashrc</code></p>
+</li>
+<li>
+<p>error :</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Failed global initialization: BadValue Invalid or no user locale set. Please ensure LANG and/or LC_* environment variables are set correctly</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>solution:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>(sudo locale-gen)
+export LC_ALL=C
+mongo</pre>
+</div>
+</div>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="" style="background-image: url(https://avatars.githubusercontent.com/u/6014309?v=3)"><span class="hidden">Hanwen Cheng's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="">Hanwen Cheng</a></h4>
+
+                    <p>Read <a href="">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Stuttgart, Germany</span>
+                    <span class="author-link icon-link"><a href="http://www.hanwencheng.com">http://www.hanwencheng.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Server%20Command&amp;url=https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://hanwencheng.github.io/hanwenblog/2015/07/20/Server-Command.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://hanwencheng.github.io/hanwenblog">Hanwen Cheng</a> &copy; 2015</section>
+        <section class="poweredby hanwenResume">Know more about me
+            <a href="../hanwenblog/pages/resume_en.html">
+                <img src="../hanwenblog/pages/UK.gif" alt="english cv" style="width:36px;height:36px">
+            </a>
+
+            <a href="../hanwenblog/pages/resume_de.html">
+                <img src="../hanwenblog/pages/Germany.gif" alt="german cv" style="width:36px;height:36px">
+            </a>
+
+            <a href="../hanwenblog/pages/resume_zh.html">
+                <img src="../hanwenblog/pages/China.gif" alt="chinese cv" style="width:36px;height:36px">
+            </a>
+        </section>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//hanwencheng.github.io/hanwenblog/themes/Casper/assets/js/jquery.fitvids.js?v=1.0.0"></script>
+    <script type="text/javascript" src="//hanwencheng.github.io/hanwenblog/themes/Casper/assets/js/index.js?v=1.0.0"></script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '&lt;script&gt;   (function(i,s,o,g,r,a,m){i[&#x27;GoogleAnalyticsObject&#x27;]=r;i[r]=i[r]||function(){   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)   })(window,document,&#x27;script&#x27;,&#x27;//www.google-analytics.com/analytics.js&#x27;,&#x27;ga&#x27;);    ga(&#x27;create&#x27;, &#x27;UA-60973146-1&#x27;, &#x27;auto&#x27;);   ga(&#x27;send&#x27;, &#x27;pageview&#x27;);  &lt;/script&gt;', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
