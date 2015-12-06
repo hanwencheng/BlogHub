@@ -1,3 +1,9 @@
 # Big Data Configuration
 
-##
+:hp-tags: notes
+
+## HDFS 
+
+Hadoop deployed across multiple servers, which is called `cluster`
+
+Single name node, and multiple data nodes, data nodes keeps block replications, and name node keep  track of file-to-block mapping and where the block is located.
