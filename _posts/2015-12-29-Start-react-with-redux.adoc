@@ -1,0 +1,14 @@
+= Start react with redux 
+
+:hp-tags: notes
+
+
+=== to be done
+
+* redux dev tool
+
+* react router (3 kinds of history, normally browserHistory)
+
+* redux router (bind react router)
+
+* redux `compose` utility function, from right to left = from bottom to top
