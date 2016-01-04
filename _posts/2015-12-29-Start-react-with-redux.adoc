@@ -11,4 +11,21 @@
 
 * redux router (bind react router)
 
-* redux `compose` utility function, from right to left = from bottom to top
+* https://github.com/rackt/redux/blob/master/docs/api/compose.md[redux `compose` utility function], from right to left = from bottom to top
+
+* socket.io for test api connection
+
+* bootstrap react
+
+[source, JavaScript]
+-------- 
+
+var button = ReactBootstrap.Button({
+  bsStyle: "success",
+  bsSize: "large",
+  children: "Register"
+});
+
+React.render(button, mountNode);
+
+---------
