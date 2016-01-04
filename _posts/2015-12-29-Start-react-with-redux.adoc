@@ -17,7 +17,7 @@
 
 * bootstrap react
 
-[source, JavaScript]
+[source,javascript]
 -------- 
 
 var button = ReactBootstrap.Button({
