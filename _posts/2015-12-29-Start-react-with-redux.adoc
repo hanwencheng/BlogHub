@@ -18,8 +18,7 @@
 * bootstrap react
 
 [source,javascript]
--------- 
-
+----- 
 var button = ReactBootstrap.Button({
   bsStyle: "success",
   bsSize: "large",
@@ -27,11 +26,17 @@ var button = ReactBootstrap.Button({
 });
 
 React.render(button, mountNode);
+-----
 
----------
 
 * `webpack-isomorphic-tools`, translate require function to hased real path on server side.
 
 * the letter `isomorphic` means `universal`, which in web development means use same javascript code both for client side and server side.
 
-*http://www.2ality.com/2015/04/webpack-es6.html[Writing client-side ES6 with webpack]
+* http://www.2ality.com/2015/04/webpack-es6.html[Writing client-side ES6 with webpack]
+
+* multireducer: for which you can use the same reducer for different data model which has the same action types 
+
+* scss just a compatible sass style, whereas sass add a 5 to 6 new syntax to css, `css-loader` is used here.
+
+* `karma` used for watch the server, `mocha` used for create describe and it framework, `chai` used for test the syntax
