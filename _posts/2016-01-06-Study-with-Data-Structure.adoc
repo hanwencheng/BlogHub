@@ -1,0 +1,11 @@
+= Study with Data Structure
+
+:hp-tags: study
+
+== The article I read
+
+* https://docs.oracle.com/database/121/TGSQL/tgsql_optcncpt.htm[Oracle query optimizer]
+
+* http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html[Scala Programming introduction]
+
+* https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284#.h2by2tgpz[The End of Global CSS]
