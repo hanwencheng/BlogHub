@@ -1,0 +1,9 @@
+= Using React with Redux
+
+:hp-tags: notes react
+
+== Actions
+
+if a action need to use the parameter, onClick = funciton (event){}, just create the function, but don't forget the event, maybe you need to use event.preventDefault() function if it is a button here.
+
+for convenience, you may define the variable in this.props to local variable or constant with es6 new syntax `const {action} = this.prop`
