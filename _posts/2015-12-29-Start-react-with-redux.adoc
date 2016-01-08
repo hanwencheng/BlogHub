@@ -1,6 +1,6 @@
 = Start react with redux 
 
-:hp-tags: notes
+:hp-tags: notes react
 
 
 === to be done
