@@ -1,0 +1,7 @@
+= Deploy on AWS
+
+:hp-tags: notes aws
+
+== Change Time
+
+为 Linux 实例设置时间(http://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-chap-getting-set-up.html) 
