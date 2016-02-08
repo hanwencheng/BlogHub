@@ -4,4 +4,27 @@
 
 == Change Time
 
-为 Linux 实例设置时间(http://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-chap-getting-set-up.html) 
+http://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-chap-getting-set-up.html[为 Linux 实例设置时间] 
+
+
+```
+// 1. change file
+
+sudo vim /etc/sysconfig/clock 
+
+ZONE="Europe/Berlin"
+UTC=false
+
+// 2. link the timezone
+
+sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+
+// 3. Reboot
+
+sudo reboot
+
+```
+
+
+
+
