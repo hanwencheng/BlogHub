@@ -32,6 +32,6 @@ sudo reboot
 
 2. npm rebuild node-sass
 
-3. rename `carousel.js` to `Carousel.js`
+3. yum install gcc-c++ make
 
 
