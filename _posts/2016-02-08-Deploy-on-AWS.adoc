@@ -26,5 +26,12 @@ sudo reboot
 ```
 
 
+== Repository problems 
+
+1. mongoose 4.4.2 version problem
+
+2. npm rebuild node-sass
+
+3. rename `carousel.js` to `Carousel.js`
 
 
