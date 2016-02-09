@@ -36,4 +36,8 @@ sudo reboot
 
 4. npm install node-gyp -g
 
+5. amazon linux: sudo yum install gcc gcc-c++ openssl-devel curl
+
+6. ubuntu sudo apt-get install g++ libssl-dev apache2-utils curl make libkrb5-dev
+
 
