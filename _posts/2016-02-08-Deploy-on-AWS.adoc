@@ -34,4 +34,6 @@ sudo reboot
 
 3. yum install gcc-c++ make
 
+4. npm install node-gyp -g
+
 
