@@ -41,3 +41,14 @@ sudo reboot
 6. ubuntu sudo apt-get install g++ libssl-dev apache2-utils curl make libkrb5-dev
 
 
+== Use AWS S3
+
+follow the instruction  ： http://aws.amazon.com/sdk-for-node-js/[here]
+
+1. npm install aws-sdk
+
+2. create a tmp file folder 
+
+
+
+
