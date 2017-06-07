@@ -1,0 +1,12 @@
+# Stateless Component
+
+### Caveats
+
+1. better use functions as argument for `setState` function
+
+```javascript
+// Correct
+this.setState((prevState, props) => ({
+  counter: prevState.counter + props.increment
+}));
+```
