@@ -20,14 +20,14 @@
     <meta property="og:site_name" content="Hanwen Cheng" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Stateless Component" />
-    <meta property="og:description" content="Caveats better use functions as argument for setState function // Correct this.setState((prevState, props) =&amp;gt; ({   counter: prevState.counter + props.increment }));..." />
+    <meta property="og:description" content="Caveats better use functions as argument for setState function // Correct this.setState((prevState, props) =&amp;gt; ({   counter: prevState.counter + props.increment })); reduce render times by doing magic in &#x60;shouldComponentUpdate &#x60;. try use [PureComponent](https://facebook.github..." />
     <meta property="og:url" content="https://hanwencheng.github.io/hanwenblog/2017/06/07/Stateless-Component.html" />
     <meta property="article:published_time" content="2017-06-06T22:00:00.000Z" />
-    <meta property="article:modified_time" content="2017-06-07T09:54:32.795Z" />
+    <meta property="article:modified_time" content="2017-06-07T11:46:29.618Z" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Stateless Component" />
-    <meta name="twitter:description" content="Caveats better use functions as argument for setState function // Correct this.setState((prevState, props) =&amp;gt; ({   counter: prevState.counter + props.increment }));..." />
+    <meta name="twitter:description" content="Caveats better use functions as argument for setState function // Correct this.setState((prevState, props) =&amp;gt; ({   counter: prevState.counter + props.increment })); reduce render times by doing magic in &#x60;shouldComponentUpdate &#x60;. try use [PureComponent](https://facebook.github..." />
     <meta name="twitter:url" content="https://hanwencheng.github.io/hanwenblog/2017/06/07/Stateless-Component.html" />
     
     <script type="application/ld+json">
@@ -45,8 +45,8 @@
     "headline": "Stateless Component",
     "url": "https://hanwencheng.github.io/hanwenblog/2017/06/07/Stateless-Component.html",
     "datePublished": "2017-06-06T22:00:00.000Z",
-    "dateModified": "2017-06-07T09:54:32.795Z",
-    "description": "Caveats better use functions as argument for setState function // Correct this.setState((prevState, props) =&amp;gt; ({   counter: prevState.counter + props.increment }));..."
+    "dateModified": "2017-06-07T11:46:29.618Z",
+    "description": "Caveats better use functions as argument for setState function // Correct this.setState((prevState, props) =&amp;gt; ({   counter: prevState.counter + props.increment })); reduce render times by doing magic in &#x60;shouldComponentUpdate &#x60;. try use [PureComponent](https://facebook.github..."
 }
     </script>
 
@@ -94,6 +94,13 @@ this.setState((prevState, props) =&gt; ({
   counter: prevState.counter + props.increment
 }));</code></pre>
 </div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>reduce render times by doing magic in `shouldComponentUpdate `. try use [PureComponent](<a href="https://facebook.github.io/react/docs/react-api.html#react.purecomponent" class="bare">https://facebook.github.io/react/docs/react-api.html#react.purecomponent</a>) and immutable props(especially for complex store) to avoid useless rendering.</p>
+</li>
+</ol>
 </div>
 </div>
         </section>
