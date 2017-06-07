@@ -10,3 +10,6 @@ this.setState((prevState, props) => ({
   counter: prevState.counter + props.increment
 }));
 ```
+
+2. reduce render times by doing magic in `shouldComponentUpdate `. try use [PureComponent](https://facebook.github.io/react/docs/react-api.html#react.purecomponent) and immutable props(especially for complex store) to avoid useless rendering.
+
