@@ -11,5 +11,5 @@ this.setState((prevState, props) => ({
 }));
 ```
 
-2. reduce render times by doing magic in `shouldComponentUpdate `. try use [PureComponent](https://facebook.github.io/react/docs/react-api.html#react.purecomponent) and immutable props(especially for complex store) to avoid useless rendering.
+2. Reduce render times by doing magic in `shouldComponentUpdate `. How React decide to render the component is according to 1. `shouldComponentUpdate` function and 2. virtual DOM comparision, refer [here]()  Try use [PureComponent](https://facebook.github.io/react/docs/react-api.html#react.purecomponent) and immutable props(especially for complex store) to avoid useless rendering.
 
